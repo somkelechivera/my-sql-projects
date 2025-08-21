@@ -1,3 +1,6 @@
+/* Create a new table called persons
+with columns: id, person_name, birth_date and phone */ 
+
 CREATE TABLE person (
     id INT NOT NULL AUTO_INCREMENT,
     person_name VARCHAR(50) NOT NULL,
