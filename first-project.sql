@@ -23,3 +23,9 @@ ADD email VARCHAR (50) NOT NULL;
 -- Remove the column phone from the persons table
 ALTER TABLE persons
 DROP COLUMN phone;
+
+-- To add information into the table, use the command below
+
+INSERT INTO persons (id, person_name, birth_date, email)
+VALUES (1, 'Anna', NULL, 'anna@gmail.com'),
+       (2, 'Sam', NULL, 'sam@gmail.com');
