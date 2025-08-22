@@ -39,7 +39,7 @@ VALUE (1, 'Maria', NULL, 'Unknown'),
       (9, 'Andreas', NULL, 'Unknown'),
       (10, 'Sarah', NULL, 'Unknown');
 
-      -- To update the information in the table above, follow the command below
+      -- To update the information in the email column in the table above, follow the command below:
       
       UPDATE persons 
 SET 
