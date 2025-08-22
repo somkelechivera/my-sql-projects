@@ -38,3 +38,35 @@ VALUE (1, 'Maria', NULL, 'Unknown'),
       (8, 'Vera', NULL, 'Unknown'),
       (9, 'Andreas', NULL, 'Unknown'),
       (10, 'Sarah', NULL, 'Unknown');
+
+      -- To update the information in the table above, follow the command below
+      
+      UPDATE persons 
+SET 
+    email = 'maria@gmail.com'
+WHERE
+    id = 1;
+    
+    UPDATE persons 
+SET 
+    email = 'john@gmail.com'
+WHERE
+    id = 2;
+    
+UPDATE persons 
+SET 
+    email = 'george@gmail.com'
+WHERE
+    id = 3;
+    
+    UPDATE persons 
+SET 
+    email = 'martin@gmail.com'
+WHERE
+    id = 4;
+    
+    UPDATE persons 
+SET 
+    email = 'peter@gmail.com'
+WHERE
+    id = 5;
