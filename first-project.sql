@@ -70,3 +70,10 @@ SET
     email = 'peter@gmail.com'
 WHERE
     id = 5;
+
+    /*Lets say we don't need the last 5 rows and we would like to delete it, follow the command below to achieve that
+    (Do this only when necessary as deleted data can not be retrieved)*/
+    
+    -- Delete customers with ID greater than 5
+DELETE FROM persons
+WHERE id > 5;
